@@ -18,9 +18,8 @@ export default function Home() {
   };
     const handleAdad = useMemo(() => {
       const adad2="";
-    console.log("render happen");
     if (!setAdad) return null;
-    
+
 
     return adad;
   }, [adad]);
